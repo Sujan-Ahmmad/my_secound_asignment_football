@@ -134,6 +134,7 @@ body
   .search-match-img img {
     width: 488px;
     height: 343px;
+    border-radius: 30px;
   }
   
   .search-match-details {
