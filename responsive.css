@@ -8,11 +8,19 @@
       flex-wrap: wrap;
     }
 
+    .half-width h1 {
+        width: 278px;
+        height: 138px;
+        margin-left: 90px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-size: 36px;
+      }
     .half-width img {
         width: 329px;
         height: 259.17px;
-        left: 344px;
-        top: 374px;
+        margin-left: 150px;
+        margin-top: 100px;
       }
     .search-match-img img {
       width: 328px;
@@ -27,46 +35,55 @@
       align-items: center;
     }
     
+    .partners
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
   }
   
     
   @media only screen and (max-width: 320px) {
     
     .flaxibal-continar {
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-    .search-match-img img {
-      width: 328px;
-      height: 248px;
-      left: 16px;
-      top: 7082px;
-  }
-    .half-width h1 {
-      font-size: 37px;
-    }
-    .half-width img {
-      width: 356.01px;
-      height: 318px;
-      margin-left: -28px;
-      margin-top: 53px;
-    }
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
   
-    .watch-now-left > h1 {
-      margin-right: 20px;
-      width: 100%;
-      text-align: center;
-    }
-    .watch-now-left > p {
-      margin-right: 20px;
-      width: 100%;
-      text-align: center;
-    }
-   
-    .search-match-cotainer {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      .half-width h1 {
+          width: 250px;
+          height: 130px;
+          margin-left: 80px;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          font-size: 30px;
+        }
+      .half-width img {
+          width: 300px;
+          height: 240.17px;
+          margin-left: 120px;
+          margin-top: 100px;
+        }
+      .search-match-img img {
+        width: 328px;
+        height: 248px;
+        left: 16px;
+        top: 7082px;
+      }
+          
+      .search-match-cotainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .partners
+      {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
     }
     /* ------------------------------------------------  
             media query for mobile device End

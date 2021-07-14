@@ -22,13 +22,9 @@ body
 {
     display: flex;
     background: #2D25A0;
+    justify-content: space-between;
 }
-.half-width
-{
-    width: 50%;
-    padding: 10px;
 
-}
 
 .half-width h1
 {
@@ -82,14 +78,15 @@ body
 
 .football-player-blogs
 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 27px;
-    margin: 70px 210px 65px 180px;
-   
+  display: flex;
+  justify-content: center;
+  grid-gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  
 }
 
-.blog
+.blogs
 {
     background: #FFFFFF;
     margin-left: 30px;
@@ -97,8 +94,9 @@ body
     rgba(0, 0, 0, 0.15);
     width: 330px;
     height: 474px;
+    border-radius: 6px;
 }
-.blog .thumbnail img
+.blogs .blog img
 {
     width: 300px;
     height: 256px;
@@ -184,10 +182,12 @@ body
 .video-part
 {
     
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 27px;
-    margin: 10px 10px 65px 100px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin: 10px 10px 65px 100px;
    
 }
 
@@ -205,8 +205,8 @@ body
 .partners
 {
     display: flex;
-    margin-left: 230px;
-   
+    margin-left: 200px;
+
 }
 
 .partners .partner img
